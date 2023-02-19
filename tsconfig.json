@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "rootDir": "./src",
+    "outDir": "./lib/esm",
+    "baseUrl": ".",
+    "strictNullChecks": true,
+    "isolatedModules": false,
+    "declaration": false,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  },
+  "files": ["./src/index.ts"]
+}
